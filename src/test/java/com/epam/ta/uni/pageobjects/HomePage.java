@@ -10,7 +10,7 @@ import com.epam.ta.uni.factory.WebDriverFactory;
 public class HomePage extends CommonPageObject {
     private static final String HOME_PAGE_URL = "https://open.spotify.com/";
 
-    @FindBy(css = "button.daAltg")
+    @FindBy(css = "span[class='ButtonInner-sc-14ud5tc-0 kuwYvr encore-inverted-light-set XkXPpDRWozMF6G8_GlLQ']")
     private WebElement registrationButton;
 
     @FindBy(id = "onetrust-accept-btn-handler")
