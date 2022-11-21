@@ -1,0 +1,20 @@
+{
+  "server": "hub.browserstack.com",
+  "user": "dvidruzsinszky_AYVWmv",
+  "key": "LUsEtrEkywQThqzVnyYp",
+
+  "capabilities": {
+    "bstack:options": {
+      "buildName": "spotify-test",
+      "sessionName": "BStack single cucumber-java",
+      "browserVersion": "latest",
+      "debug": true
+    }
+  },
+
+  "environments": [
+    {
+      "browserName": "chrome"
+    }
+  ]
+}
